@@ -3,8 +3,8 @@ export function initCanvas() {
     "Canvas"
   ) as HTMLCanvasElement;
 
-  canvas.width = window.innerWidth - 260 - 48;
-  canvas.height = window.innerHeight - 80;
+  canvas.width = window.innerWidth - 256 - 64;
+  canvas.height = window.innerHeight - 120;
 
   return { canvas };
 }

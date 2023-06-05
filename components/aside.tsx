@@ -7,7 +7,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 export function Aside({ children }: { children?: React.ReactNode }) {
   return (
-    <aside className="flex flex-col w-64 border-r bg-background h-screen">
+    <aside className="flex flex-col w-64 border-r bg-background h-screen shrink-0	">
       <div className="flex gap-6 md:gap-10 p-4 border-b">
         <Link href="/" className="flex items-center space-x-2">
           <Icons.logo className="h-6 w-6" />
